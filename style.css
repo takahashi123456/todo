@@ -1,0 +1,45 @@
+/* *{
+    border: solid 1px black;
+} */
+
+p{
+    color: #707070;
+}
+
+/* header 関連 */
+.bigBG{
+    top: 0;
+    background-image: url(./img/espo.png);
+    opacity: 1.5;
+    height: 50vh;
+    background-size: cover;
+}
+header ul{
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+    background-color:rgba(150, 150, 150, 0.555);
+    height: 80px;
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.headerfont{
+    padding-top: 7px;
+}
+
+.logo{
+    width: 90px;
+}
+
+/* triple contents */
+.news{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}

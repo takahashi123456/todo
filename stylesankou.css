@@ -1,0 +1,244 @@
+
+
+body{
+    background-color: #EEEFF3;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.9rem;
+    color: #525461;
+}
+
+/*横ナビメニュー*/
+
+.nav{
+    z-index: 1000;
+    position: fixed;
+    height: 98vh;
+    width: 200px;
+    top: 6px;
+    left: 15px;
+    border-radius: 50px;
+    background: #EEEFF3;
+    box-shadow:    4px 4px 14px #cacbcf,
+    -4px -4px 14px #ffffff;
+
+
+}
+.title{
+    height: 47vh;
+    text-align: center;
+}
+.titleimg{
+
+    padding-top: 60px;
+    width: 60px;
+}
+
+.navbutton{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background: #EEEFF3;
+    box-shadow:   5px 5px 14px #b8b9be,
+    -5px -5px 14px #ffffff;
+    text-align: center;
+    margin: 20px auto;
+}
+.navbutton:hover{
+    border-radius: 20px;
+    background: #EEEFF3;
+    box-shadow: inset 5px 5px 14px #cacbcf,
+            inset -5px -5px 14px #ffffff;
+}
+
+.navbutton2{
+    padding-top: 7px;
+}
+.buttontext{
+    width: 160px;
+    font-size: 1rem;
+    display: block;
+    text-decoration: none;
+    color:#525461 ;
+}
+.navsns{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sns{
+    border-radius: 6px;
+    background: #EEEFF3;
+    box-shadow:  7px 7px 14px #949497,
+             -7px -7px 14px #ffffff;
+    min-width: 37px;
+    max-width: 37px;
+    max-height: 37px;
+    min-height: 37px;
+}
+.sns:hover{
+    border-radius: 6px;
+    background: #EEEFF3;
+    box-shadow: inset 7px 7px 14px #949497,
+            inset -7px -7px 14px #ffffff;
+}
+.snssvg{
+    min-width: 37px;
+    max-width: 37px;
+    max-height: 37px;
+    min-height: 37px;
+
+}
+
+
+/*メインコンテンツ*/
+main{
+    padding-right: 0;
+    margin-left: 230px;
+}
+/*ここから自由に変えてください*/
+
+.bigimg{
+    width: 1100px;
+
+    }
+.bigimg img{
+        width: 100%;
+    }
+
+.container{
+    margin-left: 70px;
+}
+.setumei p{
+    font-size: 1.3rem;
+}
+
+.ennai-in{
+    text-align: center;
+
+}
+.ennai-in img{
+    width: 650px;
+}
+.ennai{
+    font-size: 1.3rem;
+}
+
+#title{
+    text-align: center;
+}
+.content{
+    display: flex;
+}
+
+/* メインコンテンツ左側 */
+.news h1{
+    font-size: 2.5rem;
+}
+.content-left{
+    width: 30%;
+    border-radius: 20px;
+    background: #EEEFF3;
+    box-shadow:   5px 5px 14px #b8b9be,
+    -5px -5px 14px #ffffff;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-right: 4%;
+    text-align: center;
+}
+.content-left img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 314px;
+    max-height: 300px;
+
+}
+.contenttext{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content-left h1{
+    font-size: 2rem;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-left p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size:1rem;
+}
+
+.contentbutton{
+    margin: auto;
+    width: 35%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 14px #bebebe,
+             -7px -7px 14px #ffffff;
+}
+.contentbutton:hover{
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow: inset 7px 7px 14px #bebebe,
+            inset -7px -7px 14px #ffffff;
+}
+
+
+.contentbutton a{
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    color:#525461 ;
+}
+
+/* メインコンテンツ右側 */
+.content-right{
+
+}
+
+
+
+
+
+/*フッター*/
+footer{
+    padding-right: 0;
+    margin-left: 250px;
+    width: 75%;
+    height: 305px;
+
+}
+.footerbg{
+    height: 300px;
+    border-radius: 50px;
+    background: #EEEFF3;
+    box-shadow:  7px 7px 14px #b8b9be,
+                 -7px -7px 14px #ffffff;
+    padding-left: 5%;
+    padding-top: 5%;
+    display: flex;
+}
+.footerh1{
+    font-size: 1.2rem;
+}
+
+.footermenu1{
+    margin-right: 10%;
+}
+.footermenu1 ul li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+.footermenu1 ul li a{
+    text-decoration: none;
+    color:#525461 ;
+}
+footer p{
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
